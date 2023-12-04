@@ -50,14 +50,35 @@ body {
   left: 50%;
 }
 
+.emoji {
+  display: block;
+  text-align: center;
+  font-size: 75px;
+}
+
+.joke {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 24px;
+  margin: 10px 0;
+  opacity: 0;
+}
+
+.fade {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
 button {
   background-color: #dc3545;
   padding: 1em 0.5em;
-  width: 100%;
+  width: 250px;
   color: #ffffff;
   border: none;
   font-size: 1em;
-  margin: 1em 0;
+  margin: 1em 0 0;
   border-radius: 0.3em;
   cursor: pointer;
 }
